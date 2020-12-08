@@ -1,0 +1,290 @@
+
+#body {
+    background:linear-gradient( rgba(174, 122, 235, 0.445) 100%, rgba(174, 122, 235, 0.445)100%),url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-image-width: 50%;
+    background-attachment: fixed;
+}
+
+
+#main {
+    font-style: italic;
+    font-family: monospace;
+    color: white;
+    font-size: 22px;
+        
+} 
+
+
+#title {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#description {
+    text-align: center;
+}
+
+
+#survey-form {
+    background-color: rgba(175, 122, 235, 0.801);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+    width: 60%;
+    border-radius: 50px; 
+}
+
+
+input[type=text], select  {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #840bbd;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #840bbd;
+    font-size: 90%;
+    
+}
+
+input[type=email]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #840bbd;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #840bbd;
+    font-size: 90%;
+}
+
+input[type=number]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #840bbd;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #840bbd;
+    font-size: 90%;
+}
+
+label{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #1d0a25;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #850bbd85;
+}
+label[for="radio"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #1d0a25;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color:  #840bbd;
+}
+
+label[for="checkbox"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #1d0a25;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color:  #840bbd;}
+              
+input[type=submit] {
+    width: 80%;
+    background-color: #840bbd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 80px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+input{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    display: inline-block;
+    border: 1px solid #1d0a25;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #850bbd85;
+}
+
+textarea{
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 80px;
+    box-sizing: border-box;
+    border: 2px solid #840bbd;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+    label{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+        justify-content: center;
+    }
+    label[for=radio]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+        
+    }
+    input[type=number]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+    }
+    input[type=email]{
+        justify-content: center;
+            width: 80%;
+            padding: 12px 20px;
+            margin: 5px 43px;
+      }
+
+    label[for=checkbox]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+        
+    }
+
+    input[type=text], select{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+        justify-content: center; 
+    }
+    .comments{  
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+    }
+    textarea{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+    }
+    input[type=submit]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 43px;
+    }
+    #survey-form{
+        width: 80% ;
+    }
+}
+@media(max-width: 425px){
+    #survey-form{
+        width: 90% ;
+    }  
+}
+@media only screen and (max-width: 320px){
+    label{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+        justify-content: center;
+    }
+    label[for=radio]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+        
+    }
+
+    label[for=checkbox]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+        
+    }
+
+    input[type=number]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+    }
+    input[type=email]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+      }
+
+    input[type=text], select{
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+        justify-content: center; 
+    }
+    .comments{  
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+    }
+    textarea{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+    }
+    input[type=submit]{
+        justify-content: center;
+        width: 80%;
+        padding: 12px 20px;
+        margin: 5px 25px;
+    }
+    #survey-form{
+        width: 80% ;
+    }
+}
